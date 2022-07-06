@@ -1,0 +1,19 @@
+{
+  "name": "autoannouncer",
+  "productName": "RRWP AutoAnnouncer",
+  "description": "Program to automatically announce rest periods at Reed Road Water Park in Columbus, Ohio.",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "James Underwood",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^19.0.7",
+    "electron-build": "0.0.3"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.5.1"
+  }
+}
