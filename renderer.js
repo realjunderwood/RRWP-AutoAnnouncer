@@ -7,14 +7,14 @@ ipc.send('pathGet');
 
 ipc.on('pathGot', function (event, sp) {
 
-document.getElementById("REEnter").setAttribute('src', sp.replace(/\\/g, "/") + "/REEnter.wav");
+document.getElementById("REEnter").setAttribute('src', sp.replace(/\\/g, "/") + "/audio/REEnter.wav");
 document.getElementById("REEnterAudio").load();
 
-document.getElementById("hellorrwp").setAttribute('src', sp.replace(/\\/g, "/") + "/hellorrwp.wav");
+document.getElementById("hellorrwp").setAttribute('src', sp.replace(/\\/g, "/") + "/audio/hellorrwp.wav");
 document.getElementById("hellorrwpAudio").load();
 
 
-document.getElementById("leave").setAttribute('src', sp.replace(/\\/g, "/") + "/leave.wav");
+document.getElementById("leave").setAttribute('src', sp.replace(/\\/g, "/") + "/audio/leave.wav");
 document.getElementById("leaveAudio").load();
 
 });
