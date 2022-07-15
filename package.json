@@ -9,10 +9,9 @@
   "scripts": {
     "start": "electron ."
   },
-  "dependencies": {
-    "electron": "^19.0.7",
-  },
   "devDependencies": {
-    "electron-packager": "^15.5.1"
+    "electron-packager": "^15.5.1",
+    "electron": "^19.0.7"
+
   }
 }
